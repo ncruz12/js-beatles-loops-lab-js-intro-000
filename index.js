@@ -32,7 +32,7 @@ function iLoveTheBeatles(num) {
 
   do {
     arr.push("I love the Beatles!");
-    i = i + 1
+    num ++
   } while (num < 15);
   return arr
 }
