@@ -23,11 +23,11 @@ const facts = [
 ];
 let i = 0
 function johnLennonFacts() {
-  var facts2 =[]
+  var facts2 = []
   while(i < facts.length) {
     facts2.push(`${facts[i]}!!!`)
     i = i + 1
-  } return facts2;
+  } return facts2
 }
 
 function iLoveTheBeatles(num) {
