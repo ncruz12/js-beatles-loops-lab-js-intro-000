@@ -21,9 +21,11 @@ const facts = [
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice"
 ];
-let i = 0
+
 function johnLennonFacts() {
   var facts2 = []
+
+  let i = 0
   while(i < facts.length) {
     facts2.push(`${facts[i]}!!!`)
     i = i + 1
